@@ -1,4 +1,5 @@
 import logo from '../../assets/img/logo.svg';
+import git from '../../assets/img/github-icon.png';
 
 import './style.css';
 
@@ -10,7 +11,9 @@ function Header() {
                 <h1>DSMeta</h1>
                 <p>
                     Desenvolvido por 
-                    <a href="https://www.instagram.com/tiagoribeiro056/"> @Tiagoribeiro056</a>
+                    <a className='a' href="https://github.com/Tiagosantos056" target={'_blank'} > @Tiagosantos056  
+                    <img className='git' src= {git} alt= "GitHub" /></a>
+                    
                 </p>
             </div>
         </header>
